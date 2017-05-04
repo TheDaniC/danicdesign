@@ -299,14 +299,11 @@ work
 .wpp {
     max-width: 60%;
     padding: 7%;
-    padding-bottom: 7%;
     clear: both;
     float: left;
 }
 
-.wp {
-    background-color: #73a993;
-}
+
 
 .wp:after {
     content: "";
@@ -318,4 +315,42 @@ work
     max-width: 20%;
     float: right;
     margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mo {
+    background-color: #aac666;
+}
+
+.mo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.moi {
+      max-width: 20%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.dcd {
+    background-color: #73a993;
+}
+
+.dcd:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dcdi {
+    max-width: 20%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
