@@ -276,7 +276,7 @@ Contact
 }
     
   /*---------------------------------------------------------------------------
-Contact
+work
 --------------------------------------------------------------------------*/  
     
   
@@ -293,4 +293,29 @@ Contact
     padding-right: 2%;
     
     
+}
+
+
+.wpp {
+    max-width: 60%;
+    padding: 7%;
+    padding-bottom: 7%;
+    clear: both;
+    float: left;
+}
+
+.wp {
+    background-color: #73a993;
+}
+
+.wp:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wpi {
+    max-width: 20%;
+    float: right;
+    margin-right: 5%;
 }
