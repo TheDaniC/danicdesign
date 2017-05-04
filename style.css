@@ -1,0 +1,296 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #efeded;
+    margin: 0;
+    
+}
+
+header {
+    margin: 2%;
+}
+
+.best {
+    max-width: 100%;  
+}
+
+.bestp {
+   max-width: 100%;  
+    
+}
+
+
+/*
+.over {
+    display: relative;
+*/
+}
+
+nav {
+    float: right;
+}
+
+.nv {
+    display: inline;
+    float: right;
+    margin: 1%
+}
+
+.logo {
+    
+    display: inline;
+}
+
+
+
+
+.gal {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.recent {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+.proj-c {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.proj {
+    max-width: 22.35%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+.proj3 {
+    max-width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+.proj-c3 {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.hi {
+    background-color: #73a993 ;
+/*    color: #efeded;*/
+/*   purple 89759b*/
+    
+}
+
+.hia {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 7%;
+    padding-bottom: 7%
+    
+}
+
+.here {
+   max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 7%;
+    padding-bottom: 7% 
+}
+
+.how {
+    background-color: #aac666;
+/*    color: #efeded;*/
+}
+
+.howa {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 7%;
+    padding-bottom: 7% 
+}
+
+.center {
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}
+
+.lnk {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.copya {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.copyb {
+    max-width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.cr {
+    text-align: center;
+
+}
+
+.social {
+    padding: 1.5%;
+    width: 20%;
+    
+}
+
+.foot {
+    
+    
+    padding-bottom: 3%; 
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+
+/*---------------------------------------------------------------------------
+about me
+--------------------------------------------------------------------------*/
+
+.aboutme {
+    max-width: 55%;
+    margin-left: 5%;
+    margin-right: 2%;
+    float: left
+}
+
+.me {
+    max-width: 38%;
+    float: right;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.od {
+    font-size: 1.75em;
+}
+
+.more {
+     background-color: #aac666; 
+    clear: both;
+}
+
+.morea {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 7%;
+    padding-bottom: 7% 
+    
+}
+
+/*---------------------------------------------------------------------------
+Services
+--------------------------------------------------------------------------*/
+
+
+.wantmore {
+    
+       max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+     padding-top: 5%;
+    padding-bottom: 5% 
+}
+
+.do {
+    
+    font-size: 2em;
+    text-align: center;
+}
+
+.biggerp {
+    font-size: 1.2em;
+}
+
+.addesign {
+    background-color: #aac666;
+}
+
+.digital {
+    background-color: #73a993;
+    
+}
+
+.logodes {
+   background-color: #89759b;
+}
+
+.anything {
+    background-color: #aac666;
+}
+
+/*---------------------------------------------------------------------------
+Contact
+--------------------------------------------------------------------------*/
+
+.proj33 {
+    max-width: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+        padding-top: 7%;
+    padding-bottom: 7% 
+    
+    
+}
+
+.proj-c33 {
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 0%;
+}
+    
+  /*---------------------------------------------------------------------------
+Contact
+--------------------------------------------------------------------------*/  
+    
+  
+    
+    
+    .car {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #efeded;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    
+}

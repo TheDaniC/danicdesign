@@ -1,0 +1,140 @@
+/************************************************************************************
+bigger than 680
+*************************************************************************************/
+
+@media screen and (min-width: 680px) {
+    .photo-row a#womens:hover::after {
+        content: "Women's";
+    }
+
+    .photo-row a#mens:hover::after {
+        content: "Men's";
+    }
+
+    .photo-row a#acc:hover::after {
+        content: "Accessories";
+    }
+    .photo-row a#footwear:hover::after {
+        content: "Footwear";
+    }
+    .photo-row a#explore:hover::after {
+        content: "Explore";
+    }
+    .photo-row a#hammocking:hover::after {
+        content: "Hammocking";
+    }
+    .photo-row a#climbing:hover::after {
+        content: "Climbing";
+    }
+    .photo-row a#backpacking:hover::after {
+        content: "Backpacking";
+    }
+    .photo-row a#camping:hover::after {
+        content: "Camping";
+    }
+   
+    }
+    
+    .photo-row a:hover {
+        filter: opacity(50%);
+    }
+
+    .photo-row a:hover::after {
+        position: absolute;
+        top: 275px;
+        left: 25px;
+        font-size: 30px;
+        color: #F7F7F7;
+    
+    }
+}
+
+/************************************************************************************
+smaller than 680
+*************************************************************************************/
+
+@media screen and (max-width:680px) {
+    
+    .photo-row {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 330px;
+    }
+    .photos {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 330px !important;
+   }
+    
+    td {
+        padding:2.5%
+    }
+    .date {
+     text-decoration: underline;
+    }
+    
+    .photo-row a::after {
+        
+        position: absolute;
+        top: 275px;
+        left: 25px;
+        font-size: 30px;
+        color: #F7F7F7;
+    }
+    .imsc {
+        margin-left: auto;
+        margin-right: auto;
+    }
+        
+
+    
+    .photo-row a#womens::after {
+        content: "Women's";
+    }
+
+    .photo-row a#mens::after {
+        content: "Men's";
+    }
+
+    .photo-row a#acc::after {
+        content: "Accessories";
+    }
+    .photo-row a#footwear::after {
+        content: "Footwear";
+    }
+    .photo-row a#explore::after {
+        content: "Explore";
+    }
+    .photo-row a#hammocking::after {
+        content: "Hammocking";
+    }
+    .photo-row a#climbing::after {
+        content: "Climbing";
+    }
+    .photo-row a#backpacking::after {
+        content: "Backpacking";
+    }
+    .photo-row a#camping::after {
+        content: "Camping";
+    }
+}
+
+/************************************************************************************
+680-1024
+*************************************************************************************/
+
+@media screen and (min-width: 680px) and (max-width: 1024px) {
+    .photos {
+        max-width: 600px;
+    }
+    .photo-row {
+        max-width: 600px;
+    }
+    .photo-row img {
+        max-width: calc(512px / 3);
+    }
+    .photo-row a:hover::after {
+        top: 150px;
+        font-size: 20px;
+    }
+}
