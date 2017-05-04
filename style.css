@@ -354,3 +354,7 @@ work
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+a:hover {
+    filter: opacity(50%);
+}
